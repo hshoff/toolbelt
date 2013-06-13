@@ -1,12 +1,6 @@
 (function(){
 
-  window.w = window.innerWidth,
-  window.h = window.innerHeight;
-
   function resizeWindow() {
-    window.w = window.innerWidth;
-    window.h = window.innerHeight;
-
     console.log('resized');
   }
 
